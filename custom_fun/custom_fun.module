@@ -27,7 +27,7 @@ function _custom_fun_get_blocks_var_keys($delta = '') {
       'fields' => array(
         'phone' => array(
           'title' => t('Phone'),
-          'default' => '+ 7 (985) 467-15-20',
+          'default' => '+ 7 (978) 767-37-40',
           'formatter' => 'phone_link',
         ),
         'mail' => array(
@@ -51,11 +51,11 @@ function _custom_fun_get_blocks_var_keys($delta = '') {
       'fields' => array(
         'address' => array(
           'title' => t('Address'),
-          'default' => 'Москва, м. Электрозаводская, ул Большая Семеновская, д. 10, ТЦ'
+          'default' => 'Севастополь, ул. 6-я Бастионная, 46-а, оф. 304'
         ),
         'phone' => array(
           'title' => t('Phones'),
-          'default' => '+7 (495) 764-22-53  |  +7 (985) 764-22-53',
+          'default' => '+7 (978) 767-37-40  |  +7 (978) 767-37-40',
           'formatter' => 'phone_link',
         ),
       )
