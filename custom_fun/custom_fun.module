@@ -32,7 +32,7 @@ function _custom_fun_get_blocks_var_keys($delta = '') {
         ),
         'mail' => array(
           'title' => t('E-mail'),
-          'default' => 'mebel-today@mail.ru',
+          'default' => variable_get('site_mail', 'sas@drupal.org'),
           'formatter' => 'mail_link'
         ),
         'work' => array(
